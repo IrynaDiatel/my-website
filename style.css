@@ -1,0 +1,84 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+}
+
+.main-page {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.background {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url("img/background.jpeg");
+  background-size: cover;
+  z-index: -1;
+}
+
+.text-container {
+  background-color: #fff;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-right: 30px;
+  padding-left: 30px;
+  border-radius: 15px;
+}
+
+.text-descr {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.text-title {
+  font-size: 45px;
+  font-weight: 600;
+}
+
+.social-icon {
+  height: 30px;
+  width: 30px;
+}
+
+.social-container {
+  margin-top: 30px;
+}
+
+.social-link {
+  text-decoration: none;
+}
+
+.sub-button {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 4px;
+  padding-right: 4px;
+  background-color: orange;
+  border-radius: 5px;
+  border: none;
+  margin-left: 10px;
+}
+
+.sub-input {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+.sub-form {
+  margin-top: 30px;
+}
